@@ -38,7 +38,7 @@ int main(void) {
     // *p2 += 17;
     // cout << setw(20) << "*p + 17 = " << *p2 << endl;
 
-    double_number(*p);
+    double_number(x);
     cout << setw(20) << "*p (after double) = " << *p << endl;
 
     // This call is not possible because the function double_number MIGHT change the value (it's constness does not promise not to!)

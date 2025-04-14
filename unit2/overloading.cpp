@@ -9,7 +9,10 @@ struct Rational {
     int q;
 
     // Operator overloading for a typecast operator
-    operator double() const { cout << " (casting) "; return ((double)p / (double)q); }
+    operator double() const { 
+        cout << " (casting) "; 
+        return ((double)p / (double)q); 
+    }
 };
 
 // overloading of the addition operator
