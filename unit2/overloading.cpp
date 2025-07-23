@@ -47,7 +47,7 @@ int f(double x, double y) {
 int main(void) {
     cout << setw(20) << "f(4,3) = " << f(4, 3) << endl;
     cout << setw(20) << "f(4.0,3.0) = " << f(4.0, 3.0) << endl;
-    cout << setw(20) << "f(5,(int) 6.0) = " << f(5, (int)6.0) << endl;
+    cout << setw(20) << "f(5,(int) 6.0) = " << f(5, 6.0) << endl;
     cout << setw(20) << "f(5.0,(double) 6) = " << f(5.0, (double)6) << endl;
 
     Rational a = {1, 2};

@@ -58,7 +58,7 @@ int main() {
     IntList* head = nullptr;
     for (auto i = 0; i < 100; i++)
         head = add_element(head, i);
-    print_list(*head);
+    print_list(head);
 
     return (0);
 }
